@@ -10,7 +10,7 @@ setInterval(function() {
 
 		if ( zummitIframeAdded == false ) {
 			var frameElem = document.createElement("iframe");
-			frameElem.src = "https://raw.githubusercontent.com/hacktick/hacktick.github.io/main/test.html"
+			frameElem.src = "https://hacktick.github.io/test.html"
 			frameElem.style.bottom = "0px";
 			frameElem.style.position = "fixed";
 			frameElem.style.width = "100%";
