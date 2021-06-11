@@ -9,8 +9,8 @@ setInterval(function() {
 		reactElem.style.height = "calc(100vh - 100px)";
 
 		if ( zummitIframeAdded == false ) {
-			var frameElem = document.createElement("iframe");
-			frameElem.src = "https://hacktick.github.io/test.html"
+			var frameElem = document.createElement("img");
+			frameElem.src = "https://hacktick.github.io/ad.png"
 			frameElem.style.bottom = "0px";
 			frameElem.style.position = "fixed";
 			frameElem.style.width = "100%";
